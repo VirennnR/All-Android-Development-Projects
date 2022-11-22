@@ -20,6 +20,7 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextDecoration
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -59,9 +60,10 @@ fun dice(){
     }
 
     Row(modifier = Modifier.fillMaxWidth() ,
-    horizontalArrangement = Arrangement.Center , Alignment.CenterVertically) {
+    horizontalArrangement = Arrangement.Center ) {
 
         Text(text = "Dice Roll App", fontSize = 40.sp, fontWeight = FontWeight.Bold,
+            textDecoration = TextDecoration.Underline ,
             textAlign = TextAlign.Center, color = colorResource(id = R.color.white),
             modifier = Modifier
                 .padding(top = 50.dp)
