@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="230dp"
+        android:layout_height="240dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:layout_margin="20dp"
+        android:background="#FFF"
+        android:elevation="15dp"
+        android:src="@drawable/virender"/>
+
+    <TextView
+        android:id="@+id/tVName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:text="@string/my_name" />
+
+    <TextView
+        android:id="@+id/tVDesignation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:text="@string/design_name" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnSkills"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:text="@string/button1_name" />
+
+        <Button
+            android:id="@+id/btnEducation"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:text="@string/button2_name" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btnTechStack"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:text="@string/button3_name" />
+
+        <Button
+            android:id="@+id/btnAchievements"
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:text="@string/button4_name" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tVHelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help_name"
+        android:layout_gravity="bottom"
+        android:layout_margin="8dp"
+        android:paddingTop="80dp"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    </LinearLayout>

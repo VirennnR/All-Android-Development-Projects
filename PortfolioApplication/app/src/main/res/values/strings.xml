@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Portfolio Application</string>
+    <string name="my_name">Virender Singh Rathore</string>
+    <string name="design_name">Student</string>
+    <string name="button1_name">Skills</string>
+    <string name="button2_name">Education</string>
+    <string name="button3_name">Tech Stack</string>
+    <string name="button4_name">Achievements</string>
+    <string name="help_name">For Help :- viren.rathore02@gmail.com</string>
+</resources>

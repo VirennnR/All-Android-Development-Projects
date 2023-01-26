@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TechActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="• TECH STACK"
+        android:textSize="34sp"
+        android:padding="10dp"
+        android:background="#FFF"
+        android:elevation="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:layout_margin="5dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Java"
+        android:textSize="23sp"
+        android:paddingStart="20dp"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="DSA"
+        android:textSize="23sp"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Android(Kotlin)"
+        android:textSize="23sp"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Python"
+        android:textSize="23sp"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="DBMS"
+        android:textSize="23sp"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:layout_margin="15dp"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Git and GitHub"
+        android:textSize="23sp"
+        android:padding="15dp"
+        android:paddingStart="20dp"
+        android:textColor="@color/black"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif-medium"
+        android:layout_margin="15dp"/>
+
+
+</LinearLayout>
