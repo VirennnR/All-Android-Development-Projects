@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/signup"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="26sp"/>
+
+
+    <ImageView
+        android:id="@+id/smallLogo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#FFF"
+        android:elevation="15dp"
+        android:src="@drawable/login"
+        android:contentDescription="@string/app_logo" />
+
+
+    <EditText
+        android:id="@+id/etMobileNumberSU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:hint="@string/mobile_number"
+        android:inputType="number"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:drawableStart="@drawable/baseline_phone_iphone_24"
+        android:drawablePadding="3dp"
+        android:padding="10dp"
+        android:autofillHints="phone" />
+
+    <EditText
+        android:id="@+id/etPasswordSU"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLength="6"
+        android:maxLines="1"
+        android:drawableStart="@drawable/baseline_lock_24"
+        android:drawablePadding="3dp"
+        android:padding="10dp"
+        android:autofillHints="password" />
+
+    <Button
+        android:id="@+id/buttonSU"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:text="@string/signup_btn" />
+
+    <TextView
+        android:id="@+id/tvForgotPasswordSU"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="@string/forgot_password"
+        android:textSize="15sp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvRegisterYourself"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:padding="8dp"
+            android:text="@string/register_yourself"
+            android:textAlignment="center"
+            android:textAllCaps="false" />
+    </RelativeLayout>
+
+
+</LinearLayout>
