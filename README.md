@@ -42,6 +42,7 @@ A very basic app(during learning period).
 # PorfolioApplication
 
 App to demonstrate my own portfolio.
+
 Basically to show my skills, tech stack, education & achievements.
 
 <img src="https://github.com/VirennnR/All-Android-Development-Projects/assets/90162515/fdb19481-d3fb-4d7e-a8fa-c214b6761d89" width="200" height="400" /> <img src="https://github.com/VirennnR/All-Android-Development-Projects/assets/90162515/aef0f311-d7c2-4084-a13e-8b513d9ad385" width="200" height="400" />
